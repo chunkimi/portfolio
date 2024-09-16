@@ -1,0 +1,100 @@
+{
+  "first_name": "Kimi",
+  "last_name": "HU",
+  "avatar": "assets/images/avatar.svg",
+  "position": "前端工程師，跨足專案管理與企劃。",
+  "summary": [
+    "技術使用JavaScript、Vue 3、Sass(SCSS)，熟悉Git版本控制和RWD設計。具一年side project開發經驗，從需求分析、流程功能設計與前端開發，能獨立或團隊協作完成。",
+    "擁有十年文化產業資歷，擅長從零開始將模糊概念轉化為實際產品，與跨職能或跨產業的團隊溝通協作。曾企劃與管理博物館的新資料庫開發；策展一檔吸引 55 萬人次參觀的博物館特展；以及編輯的書籍獲得金鼎獎（國家指標性出版獎項）。",
+    "具備甲乙方合作經驗，熟悉需求方與執行方的溝通與協作流程，能夠識別專案關係人的需求，並在問題與流程拆解上累積豐富的實踐。擅於將複雜資訊轉化為流暢且人性化的應用，涵蓋內容重組、資料分析與視覺化，同時注重使用者體驗。"
+  ],
+  "proj_exp_description": {
+    "preface": "個人具備以下核心特質，可靈活應用於跨領域工作：",
+    "summary": [
+      {
+        "title": "需求洞察與落地實現",
+        "text": "擅於洞察專案需求，識別關鍵需求並將其轉化為可執行的方案，確保從構想到最終實現的順利落地。成功案例有企劃博物館主題資料庫。"
+      },
+      {
+        "title": "資料管理與應用",
+        "text": "擁有豐富的實體和數位資料管理經驗，擅長提升資料價值並運用於公眾展示。曾企劃博物館藏品主題專書出版，三個月內再版，市場反應良好。"
+      },
+      {
+        "title": "邏輯架構與內容重組",
+        "text": "具備從零系統化規劃的能力，設計層次分明的結構，並注重使用者體驗。例如，策展時透過說故事的技巧與層次化的佈局，不僅展示藏品與資訊，還幫助觀眾理解內容，沉浸於展覽情境。"
+      },
+      {
+        "title": "跨職能溝通與協作",
+        "text": "曾任專案管理，靈活溝通、協調跨職能團隊，確保流程順暢，達成預期目標。"
+      }
+    ]
+  },
+  "contact": [
+    {
+      "type": "mail",
+      "path": "huchiachun@gmail.com",
+      "icon": "bi-envelope"
+    },
+    {
+      "type": "github",
+      "path": "https://github.com/chunkimi",
+      "icon": "bi-github"
+    },
+    {
+      "type": "linkedin",
+      "path": "https://www.linkedin.com/in/kimi-chun/",
+      "icon": "bi-linkedin"
+    }
+  ],
+  "web_dev_skills": {
+    "type": "webDev",
+    "title": "前端開發",
+    "skills": [
+      {
+        "items": ["JavaScript （ES6+）"]
+      },
+      {
+        "items": ["Vue 3 (composition API)"]
+      },
+      {
+        "items": ["HTML5", "CSS3"]
+      },
+      {
+        "items": ["SCSS", "Bootstrap 5"]
+      },
+      {
+        "items": ["RWD"]
+      },
+      {
+        "items": ["Vite", "Pinia"]
+      },
+      {
+        "items": ["RESTful API", "axios"]
+      },
+      {
+        "items": ["git"]
+      },
+      {
+        "items": ["wireframe（Figma）"]
+      }
+    ]
+  },
+  "pro_skills": {
+    "type": "professional",
+    "title": "跨領域",
+    "skills": [
+      {
+        "category": "管理",
+        "items": ["專案管理", "任務拆解與sop規劃", "需求識別"]
+      },
+      {
+        "category": "資料處理",
+        "items": ["資料管理暨應用（實體與數位）", "內容分析與重組"]
+      },
+      {
+        "category": "其他",
+        "items": ["跨職能溝通與團隊協作"]
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Kimi",
+  "simple_intro_en": [
+    "Front-end developer, hiker, and a big fan of Jack Russell Terriers, with a keen eye for detail.",
+    "Full of energy, intelligence, and fun—just like a Jack Russell Terrier—I am always ready for new challenges.",
+    "With years of experience in project planning, data management, and application development, I’ve honed my ability to turn complex data into visually appealing and easy-to-understand interfaces.",
+    "My work experience also includes being a exhibition curator. I excel at transforming abstract historical concepts into vivid and layered narratives, creating immersive experiences for the audience—like a tiramisu, where each layer brings a new taste.",
+    "Whether I’m designing a website or curating an exhibit, my goal is always to focus on structured thinking, data-driven insights, and information visualization to create seamless and enjoyable user experiences.",
+    "I enjoy spending time in nature, which helps me continually sharpen my observational skills and spark new ideas."
+  ],
+  "front_end_skills": [
+    "JavaScript (ES6+)",
+    "Vue.js 3",
+    "VITE",
+    "Bootstrap 5",
+    "SCSS/CSS6",
+    "HTML5",
+    "wireframe"
+  ],
+  "other_skills": ["Project Management", "Project Planning", "data Management and Application"],
+  "sns": [
+    {
+      "type": "github",
+      "url": "https://github.com/chunkimi",
+      "icon": "bi-github"
+    }
+  ]
+}
