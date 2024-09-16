@@ -1,0 +1,167 @@
+[
+  {
+    "id_type": "product",
+    "pro_id": "001",
+    "info_zh": {
+      "website": "校園生活記憶庫",
+      "description": [
+        "從零開始構建並成功上線博物館藏品主題資料庫，向公眾開放使用。",
+        "代表博物館與外部團隊協作，規劃資料庫需求功能和實物藏品數位化流程，設計 Metadata 欄位及撰寫規範，並構思資料之間的關聯與叢集。",
+        "為解決客製化資料無法被現有系統儲存的問題，提出後台簡易功能的規劃，成功整合資料儲存、客製化編輯與展示應用三個介面。"
+      ],
+      "nature": "博物館與外部團隊合作開發的正式產品",
+      "role": "博物館方資料庫內容企劃、日常營運",
+      "highlights": ""
+    },
+    "info_en": {
+      "website": "School Life Memoirs Database",
+      "description": [
+        "A new museum collection database made for the public",
+        "Planned the process to digitize items and wrote rules for metadata fields",
+        "Thought about how the data is connected",
+        "To solve the problem of custom data not being saved by the old system, planned a simple backend to store, edit, and show the data"
+      ],
+      "nature": "A formal product developed by the museum and outside team",
+      "role": "Museum's database planner and daily operations",
+      "highlights": ""
+    },
+
+    "develop_label": [],
+    "web_url": "https://school.nmth.gov.tw/",
+    "repo_url": "",
+    "guide_url": "",
+    "img": "nmth-school"
+  },
+  {
+    "id_type": "product",
+    "pro_id": "002",
+    "info_zh": {
+      "website": "Simple Twitter",
+      "description": [
+        "SNS 社交平台。",
+        "採用前後端分離架構及遠端協作，在 14 天內完成開發，期間進行多次迭代。",
+        "前端使用 React，支援RWD，使用axios介接後端資料。",
+        "注重使用者體驗與互動，透過增設事件處理中的 UI 回饋變化，協助使用者清楚掌握當前處理狀態。",
+        "除前端開發外，撰寫與檢核 acceptance criteria list。"
+      ],
+      "nature": "前後端分離的團隊協作（進修課程畢業門檻）",
+      "role": "前端、PM",
+      "highlights": ""
+    },
+    "info_en": {
+      "website": "Simple Twitter",
+      "description": [
+        "Social media platform",
+        "Finished in 14 days with frontend and backend separate and team working remotely, improved with many demos",
+        "Frontend uses React, supports RWD",
+        "Used axios to connect with backend data",
+        "Focused on user experience and interaction, added user tips during event handling, UI changes help users understand what is happening",
+        "Wrote an acceptance criteria list and did testing"
+      ],
+      "nature": "Teamwork with frontend and backend separate (graduation project for a course)",
+      "role": "Front-end developer, PM",
+      "highlights": ""
+    },
+
+    "develop_label": ["JavaScript", "React", "RWD", "CSS"],
+    "web_url": "",
+    "repo_url": "https://github.com/chunkimi/simple_twitter_frontend",
+    "guide_url": "https://github.com/chunkimi/simple_twitter_frontend?tab=readme-ov-file#%E6%93%8D%E4%BD%9C%E8%AA%AA%E6%98%8E",
+    "img": "simple-twitter"
+  },
+  {
+    "id_type": "product",
+    "pro_id": "003",
+    "info_zh": {
+      "website": "2020臺灣總統大選情報站",
+      "description": [
+        "選舉開票與分析平台，結合政府open data真實選票與模擬候選人，以視覺化呈現多種選情分析。",
+        "chart.js 繪製歷屆選票分析圖表。",
+        "客製化 Bootstrap，支援 RWD。",
+        "選票分析中因行政區升級導致部分地名無法比對，以身份證英文代碼和郵遞區號作為識別碼獲得解決。",
+        "與協作者討論 git flow 及 git conflict 解決方式。"
+      ],
+      "nature": "團隊協作Side Project",
+      "role": "前端、企劃",
+      "highlights": "2023 THE F2E 黑客松團體組入選（團隊：匿名山羌）"
+    },
+    "info_en": {
+      "website": "2020 Taiwan Presidential Election Election Hub",
+      "description": [
+        "Election results and analysis platform, combining real government open data with simulated candidates",
+        "Used chart.js to make charts of past election votes",
+        "Customized Bootstrap, supports RWD",
+        "Solved the problem of matching place names due to area upgrades by using ID code and postal code as identifiers",
+        "Discussed git flow and how to fix git conflicts with teammates"
+      ],
+      "nature": "Teamwork Side Project",
+      "role": "Front-end developer, Planner",
+      "highlights": "The project was selected for The F2E 2024 group category (team: Incognito Formosan Muntjac)."
+    },
+
+    "develop_label": [
+      "JavaScript",
+      "Vue 3",
+      "VITE",
+      "Pinia",
+      "d3.js",
+      "chart.js",
+      "Bootstrap 5",
+      "SCSS",
+      "RWD"
+    ],
+    "web_url": "https://chunkimi.github.io/vote-inquiry/#/",
+    "repo_url": "https://github.com/chunkimi/vote-inquiry",
+    "guide_url": "https://github.com/chunkimi/vote-inquiry?tab=readme-ov-file#%E4%BD%9C%E5%93%81%E8%AA%AA%E6%98%8E",
+    "img": "vote-inquiry"
+  },
+  {
+    "id_type": "product",
+    "pro_id": "004",
+    "info_zh": {
+      "website": "郊友趣",
+      "description": [
+        "自然步道為主題的個人筆記與檢索平台。",
+        "使用axios介接兩種政府open data APIs 與現成 To-Do-List APIs。",
+        "具有會員註冊與CRUD功能，使用Pinia管理。",
+        "chart.js繪製會員個人化足跡分析圖表。",
+        "規劃多樣主題檢索，從角色、功能分類，引導使用者以需求探索步道。",
+        "除蒐藏待辦步道外，透過JSON轉換格式，將既有 API 儲存單一字串值的限制轉換為多值儲存，實現會員評論功能。"
+      ],
+      "nature": "個人Side Project",
+      "role": "前端、企劃",
+      "highlights": ""
+    },
+    "info_en": {
+      "website": "Hiking Friends",
+      "description": [
+        "A personal notes and search platform focused on nature trails",
+        "Used axios to connect to two government open data APIs and a To-Do List API",
+        "User registration and CRUD features, managed with Pinia",
+        "Made personal trail charts with chart.js",
+        "Customized Bootstrap, supports RWD",
+        "Used Sass (SCSS) with BEM rules",
+        "Various search themes, guiding users to explore trails by role or function",
+        "Added a comment feature by changing JSON format to store more values, beyond just saving trails"
+      ],
+      "nature": "Personal Side Project",
+      "role": "Front-end developer, Planner",
+      "highlights": ""
+    },
+
+    "develop_label": [
+      "JavaScript",
+      "Vue 3",
+      "VITE",
+      "Pinia",
+      "chart.js",
+      "Bootstrap 5",
+      "SCSS",
+      "RWD"
+    ],
+    "web_url": "https://chunkimi.github.io/hiking-friends/#/",
+    "repo_url": "https://github.com/chunkimi/hiking-friends",
+    "guide_url": "https://chunkimi.github.io/hiking-friends/#/guide",
+    "img": "hiking-friends"
+  }
+]
