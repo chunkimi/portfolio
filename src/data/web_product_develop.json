@@ -40,9 +40,9 @@
       "description": [
         "SNS 社交平台。",
         "採用前後端分離架構及遠端協作，在 14 天內完成開發，期間進行多次迭代。",
-        "前端使用 React，支援RWD，使用axios介接後端資料。",
+        "前端使用 React，支援 RWD ，使用 axios 介接後端資料。",
         "注重使用者體驗與互動，透過增設事件處理中的 UI 回饋變化，協助使用者清楚掌握當前處理狀態。",
-        "除前端開發外，撰寫與檢核 acceptance criteria list。"
+        "撰寫與檢核 acceptance criteria list。"
       ],
       "nature": "前後端分離的團隊協作（進修課程畢業門檻）",
       "role": "前端、PM",
@@ -75,9 +75,9 @@
     "info_zh": {
       "website": "2020臺灣總統大選情報站",
       "description": [
-        "選舉開票與分析平台，結合政府open data真實選票與模擬候選人，以視覺化呈現多種選情分析。",
+        "選舉開票與分析平台，結合政府 Open Data 真實選票與模擬候選人，以視覺化呈現多種選情分析。",
         "chart.js 繪製歷屆選票分析圖表。",
-        "客製化 Bootstrap，支援 RWD。",
+        "客製化 Bootstrap 5，支援 RWD。",
         "選票分析中因行政區升級導致部分地名無法比對，以身份證英文代碼和郵遞區號作為識別碼獲得解決。",
         "與協作者討論 git flow 及 git conflict 解決方式。"
       ],
@@ -102,10 +102,10 @@
     "develop_label": [
       "JavaScript",
       "Vue 3",
-      "VITE",
+      "Vite",
       "Pinia",
-      "d3.js",
-      "chart.js",
+      "D3.js",
+      "Chart.js",
       "Bootstrap 5",
       "SCSS",
       "RWD"
@@ -122,9 +122,9 @@
       "website": "郊友趣",
       "description": [
         "自然步道為主題的個人筆記與檢索平台。",
-        "使用axios介接兩種政府open data APIs 與現成 To-Do-List APIs。",
-        "具有會員註冊與CRUD功能，使用Pinia管理。",
-        "chart.js繪製會員個人化足跡分析圖表。",
+        "使用 axios 介接政府 Open Data APIs 與現成的 To-Do-List APIs。",
+        "具有會員註冊與CRUD功能，使用 Pinia 管理狀態。",
+        "以Chart.js繪製會員個人化足跡分析圖表。",
         "規劃多樣主題檢索，從角色、功能分類，引導使用者以需求探索步道。",
         "除蒐藏待辦步道外，透過JSON轉換格式，將既有 API 儲存單一字串值的限制轉換為多值儲存，實現會員評論功能。"
       ],
@@ -152,9 +152,9 @@
     "develop_label": [
       "JavaScript",
       "Vue 3",
-      "VITE",
+      "Vite",
       "Pinia",
-      "chart.js",
+      "Chart.js",
       "Bootstrap 5",
       "SCSS",
       "RWD"
