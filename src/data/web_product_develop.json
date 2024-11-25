@@ -36,48 +36,12 @@
     "id_type": "product",
     "pro_id": "002",
     "info_zh": {
-      "website": "Simple Twitter",
-      "description": [
-        "SNS 社交平台。",
-        "採用前後端分離架構及遠端協作，在 14 天內完成開發，期間進行多次迭代。",
-        "前端使用 React，支援 RWD ，使用 axios 介接後端資料。",
-        "注重使用者體驗與互動，透過增設事件處理中的 UI 回饋變化，協助使用者清楚掌握當前處理狀態。",
-        "撰寫與檢核 acceptance criteria list。"
-      ],
-      "nature": "前後端分離的團隊協作（進修課程畢業門檻）",
-      "role": "前端、PM",
-      "highlights": ""
-    },
-    "info_en": {
-      "website": "Simple Twitter",
-      "description": [
-        "Social media platform",
-        "Finished in 14 days with frontend and backend separate and team working remotely, improved with many demos",
-        "Frontend uses React, supports RWD",
-        "Used axios to connect with backend data",
-        "Focused on user experience and interaction, added user tips during event handling, UI changes help users understand what is happening",
-        "Wrote an acceptance criteria list and did testing"
-      ],
-      "nature": "Teamwork with frontend and backend separate (graduation project for a course)",
-      "role": "Front-end developer, PM",
-      "highlights": ""
-    },
-
-    "develop_label": ["JavaScript", "React", "RWD", "CSS"],
-    "web_url": "",
-    "repo_url": "https://github.com/chunkimi/simple_twitter_frontend",
-    "guide_url": "https://github.com/chunkimi/simple_twitter_frontend?tab=readme-ov-file#%E6%93%8D%E4%BD%9C%E8%AA%AA%E6%98%8E",
-    "img": "simple-twitter"
-  },
-  {
-    "id_type": "product",
-    "pro_id": "003",
-    "info_zh": {
       "website": "2020臺灣總統大選情報站",
       "description": [
-        "選舉開票與分析平台，結合政府 Open Data 真實選票與模擬候選人，以視覺化呈現多種選情分析。",
-        "chart.js 繪製歷屆選票分析圖表。",
-        "客製化 Bootstrap 5，支援 RWD。",
+        "選舉開票與分析平台，結合政府 Open Data 真實選票與模擬候選人角色呈現選舉樣貌。",
+        "分析競品、規劃功能與繪製Wireframe，以多種主題化圖表呈現選情分析為產品特色。",
+        "Vue3  (Composition API) 、Bootstrap 5 客製化，支援 RWD。",
+        "以 Chart.js 繪製不同主題的歷屆選票分析圖表。",
         "選票分析中因行政區升級導致部分地名無法比對，以身份證英文代碼和郵遞區號作為識別碼獲得解決。",
         "與協作者討論 git flow 及 git conflict 解決方式。"
       ],
@@ -117,16 +81,17 @@
   },
   {
     "id_type": "product",
-    "pro_id": "004",
+    "pro_id": "003",
     "info_zh": {
       "website": "郊友趣",
       "description": [
-        "自然步道為主題的個人筆記與檢索平台。",
-        "使用 axios 介接政府 Open Data APIs 與現成的 To-Do-List APIs。",
-        "具有會員註冊與CRUD功能，使用 Pinia 管理狀態。",
-        "以Chart.js繪製會員個人化足跡分析圖表。",
+        "自然步道為主題的個人筆記與檢索平台，以提供整合資訊、圖表分析為特色。",
         "規劃多樣主題檢索，從角色、功能分類，引導使用者以需求探索步道。",
-        "除蒐藏待辦步道外，透過JSON轉換格式，將既有 API 儲存單一字串值的限制轉換為多值儲存，實現會員評論功能。"
+        "Vue3  (Composition API) 、Bootstrap 5 客製化與SCSS開發，支援 RWD。",
+        "axios 串接 Open Data APIs 及現成 To-Do List ，開發會員功能進行 CRUD 操作，提升平台功能與數據整合性。",
+        "使用 Pinia 管理會員功能的操作狀態。",
+        "以Chart.js繪製會員個人化足跡分析圖表。",
+        "透過JSON轉換格式，將既有 To-Do List API 儲存單一字串值的限制，成功轉換為多值儲存，實現會員評論評分功能。"
       ],
       "nature": "個人Side Project",
       "role": "前端、企劃",
