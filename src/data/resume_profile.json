@@ -2,11 +2,14 @@
   "first_name": "Kimi",
   "last_name": "HU",
   "avatar": "assets/images/avatar.svg",
-  "position": "前端工程師，跨足專案管理與企劃。",
+  "position": "前端工程師／專案管理／企劃。",
   "summary": [
-    "技術使用 JavaScript、Vue 3、Sass(SCSS)，熟悉Git版本控制和RWD設計。具一年 side project 開發經驗，從需求分析、流程功能設計與前端開發，能獨立或團隊協作完成。",
-    "擁有十年文化產業資歷，擅長從零開始將模糊概念轉化為實際產品，與跨職能或跨產業的團隊溝通協作。曾企劃與管理博物館的新資料庫開發；策展一檔吸引 55 萬人次參觀的博物館特展；以及編輯的書籍獲得國家指標性金鼎獎。",
-    "具備甲乙方合作經驗，熟悉需求方與執行方的溝通與協作流程，能夠識別專案關係人的需求，並在問題與流程拆解上累積豐富的實踐。擅於將複雜資訊轉化為流暢且人性化的應用，涵蓋內容重組、資料分析與視覺化，同時注重使用者體驗。"
+    "具備專案管理與企劃，以及前端開發程式撰寫技能。善於分析問題與拆解流程，將需求落實為可執行的開發任務。",
+
+    "前端技術以 JavaScript、Vue 3 為主，熟悉 Git 版本控制與 RWD 實作。具一年 side project 開發經驗，專注於內容重組、資料分析與視覺化，致力提升使用者體驗與互動性。",
+    "擁有七年跨領域產品開發與跨職能協作工作經驗，曾任職於甲乙方任職並與外部合作，能識別關係人需求進行換位思考溝通，企劃具體可執行方案。",
+    "曾從0-1，企劃與管理博物館的新資料庫開發；策展一檔吸引 55 萬人次參觀的博物館特展（年度最受歡迎）；經手過的書籍產品最佳紀錄拿過金鼎獎（國家獎項）。",
+    "自主學習力強，熱衷吸收跨領域新知與技術，靈活應用跨領域工作情境，應對多元產業與產品需求。"
   ],
   "proj_exp_description": {
     "preface": "個人具備以下核心特質，可靈活應用於跨領域工作：",
@@ -50,51 +53,26 @@
     "type": "webDev",
     "title": "前端開發",
     "skills": [
-      {
-        "items": ["JavaScript （ES6+）"]
-      },
-      {
-        "items": ["Vue 3 (Composition API)"]
-      },
-      {
-        "items": ["HTML5", "CSS3"]
-      },
-      {
-        "items": ["SCSS", "Bootstrap 5"]
-      },
-      {
-        "items": ["RWD"]
-      },
-      {
-        "items": ["Vite", "Pinia"]
-      },
-      {
-        "items": ["RESTful API", "axios"]
-      },
-      {
-        "items": ["Git"]
-      },
-      {
-        "items": ["wireframe（Figma）"]
-      }
+      "JavaScript",
+      "Vue 3 (Composition API)",
+      "React",
+      "SCSS",
+      "Bootstrap 5（含客製化）",
+      "RWD",
+      "Vite",
+      "Git",
+      "API 串接（以fetch / axios 串接 RESTful API）"
     ]
   },
   "pro_skills": {
-    "type": "professional",
+    "type": "Cross-disciplinary",
     "title": "跨領域",
     "skills": [
-      {
-        "category": "管理",
-        "items": ["專案管理", "任務拆解與SOP規劃", "需求識別"]
-      },
-      {
-        "category": "資料處理",
-        "items": ["資料管理暨應用（實體與數位）", "內容分析與重組"]
-      },
-      {
-        "category": "其他",
-        "items": ["跨職能溝通與團隊協作"]
-      }
+      "專案管理與跨職能協作",
+      "需求分析與任務拆解",
+      "產品企劃與功能設計",
+      "繪製Wireframe （使用figma）",
+      "使用者體驗設計"
     ]
   }
 }

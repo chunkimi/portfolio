@@ -22,10 +22,10 @@
               <li
                 class="fs-fixed-6 fw-light color-support"
                 v-for="skillItem in webDevSkills.skills"
-                :key="skillItem.category"
+                :key="skillItem"
               >
                 <p class="lh-lg">
-                  <span>{{ getSkillsContent(skillItem.items) }}</span>
+                  <span>{{ skillItem }}</span>
                 </p>
               </li>
             </ul>
@@ -38,10 +38,10 @@
               <li
                 class="fs-fixed-6 fw-light color-support"
                 v-for="skillItem in proSkills.skills"
-                :key="skillItem.category"
+                :key="skillItem"
               >
                 <p class="lh-lg">
-                  <span>{{ getSkillsContent(skillItem.items) }}</span>
+                  <span>{{ skillItem }}</span>
                 </p>
               </li>
             </ul>
@@ -69,12 +69,4 @@ const props = defineProps({
 const proSkills = computed(() => props.skillsData.proSkills)
 
 const webDevSkills = computed(() => props.skillsData.webDevSkills)
-
-function getSkillsContent(skillsArr) {
-  return skillsArr
-    .map((item, index) => {
-      return index !== 0 ? `、${item}` : `${item}`
-    })
-    .join('')
-}
 </script>

@@ -146,9 +146,6 @@
             <div class="resume__section resume__section--fv" id="work-proj">
               <WorkProj :proj-exp-description="projExpDescription" :work-proj-info="workProjInfo" />
             </div>
-            <div class="resume__section" id="work-exp">
-              <WorkExp :work-exp-info="workExpInfo" />
-            </div>
           </div>
         </div>
       </div>
@@ -163,12 +160,10 @@ import { mediaBreakpointConfig } from '@/utils/mediaUtils.js'
 import resumeProfileData from '@/data/resume_profile.json'
 import productDevelopData from '@/data/web_product_develop.json'
 import workProjData from '@/data/work_projects.json'
-import workExpData from '@/data/work_experience.json'
 import ResumeProfile from '@/components/resume/section/ResumeProfile.vue'
 import WorkSkills from '@/components/resume/section/WorkSkills.vue'
 import WebProdDev from '@/components/resume/section/WebProdDev.vue'
 import WorkProj from '@/components/resume/section/WorkProj.vue'
-import WorkExp from '@/components/resume/section/WorkExp.vue'
 
 const isMediaLgUp = useMediaQuery(`(min-width: ${mediaBreakpointConfig.lg})`)
 
@@ -203,8 +198,6 @@ const developProInfo = ref(productDevelopData)
 const projExpDescription = ref(resumeProfileData.proj_exp_description)
 
 const workProjInfo = ref(workProjData)
-
-const workExpInfo = ref(workExpData)
 
 const resumeNavToggle = ref(null)
 function handleNavClick(sectionID) {

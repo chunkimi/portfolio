@@ -8,16 +8,12 @@ export const resumeNavMenu = [
     sectionID: 'work-skills'
   },
   {
-    title: '開發經驗',
+    title: '網頁開發經驗',
     sectionID: 'web-prod-dev'
   },
   {
-    title: '專案成果',
+    title: '工作專案成果',
     sectionID: 'work-proj'
-  },
-  {
-    title: '工作經歷',
-    sectionID: 'work-exp'
   }
 ]
 
